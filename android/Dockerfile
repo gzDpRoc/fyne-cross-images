@@ -1,8 +1,8 @@
-ENV FYNE_CROSS_IMAGES_VERSION android
-ENV FYNE_CROSS_REPOSITORY fyneio/fyne-cross-images
+#ENV FYNE_CROSS_IMAGES_VERSION android
+#ENV FYNE_CROSS_REPOSITORY fyneio/fyne-cross-images
 
 # fyne-cross image for linux
-FROM ${FYNE_CROSS_REPOSITORY}:${FYNE_CROSS_IMAGES_VERSION}-base
+FROM fyneio/fyne-cross-images:android-base
 
 # Install Java
 RUN apt-get update && \
