@@ -2,7 +2,7 @@
 #ENV FYNE_CROSS_REPOSITORY fyneio/fyne-cross-images
 
 # fyne-cross image for linux
-FROM fyneio/fyne-cross-images:linux-base
+FROM fyneio/fyne-cross-images:v1.2.0-base
 
 # Install Java
 RUN apt-get update && \
