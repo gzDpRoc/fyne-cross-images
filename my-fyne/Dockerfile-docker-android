@@ -1,0 +1,1 @@
+FROM budtmo/docker-android:emulator_11.0
